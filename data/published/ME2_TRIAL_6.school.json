@@ -1,0 +1,14 @@
+{
+  "examId": "ME2_TRIAL_6",
+  "updatedAt": "2026-09-05T09:44:08.898Z",
+  "studentCount": null,
+  "total": null,
+  "categories": {
+    "基礎医学": 20,
+    "基礎工学": 96,
+    "基礎ME": 46,
+    "原理構造": 81,
+    "操作運用": 96,
+    "保守安全": 87
+  }
+}

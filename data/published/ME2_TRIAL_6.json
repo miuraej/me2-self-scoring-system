@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "ME2_TRIAL_6",
+  "version": "diagnostic",
+  "updatedAt": "2026-09-05T09:44:08.896Z",
+  "answerStatus": "published",
+  "answers": [
+    {
+      "questionId": "me2-trial-01",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-02",
+      "scoring": "multiple",
+      "correctAnswers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-03",
+      "scoring": "all_correct",
+      "correctAnswers": [],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-04",
+      "scoring": "excluded",
+      "correctAnswers": [],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-05",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-06",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    }
+  ],
+  "nationalAverage": {
+    "total": null,
+    "categories": {
+      "基礎医学": 21,
+      "基礎工学": 98,
+      "基礎ME": 46.7,
+      "原理構造": 82,
+      "操作運用": 93.9,
+      "保守安全": 88
+    }
+  }
+}

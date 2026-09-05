@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "ME2_TRIAL_12",
+  "version": "1.0.0",
+  "updatedAt": "2026-09-05T10:04:27.731Z",
+  "answerStatus": "published",
+  "answers": [
+    {
+      "questionId": "me2-trial-am-01",
+      "scoring": "multiple",
+      "correctAnswers": [
+        1,
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-am-02",
+      "scoring": "all_correct",
+      "correctAnswers": [],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-am-03",
+      "scoring": "excluded",
+      "correctAnswers": [],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-am-04",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-am-05",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-am-06",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-pm-01",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-pm-02",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-pm-03",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-pm-04",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-pm-05",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "me2-trial-pm-06",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    }
+  ],
+  "nationalAverage": {
+    "total": null,
+    "categories": {
+      "基礎医学": 30.8,
+      "基礎工学": 28.2,
+      "原理構造": 30.8,
+      "操作運用": 30,
+      "保守安全": 29.7,
+      "基礎ME": 29.3
+    }
+  }
+}
