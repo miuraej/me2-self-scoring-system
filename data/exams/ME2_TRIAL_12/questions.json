@@ -1,0 +1,14 @@
+[
+  {"id":"me2-trial-am-01","examId":"ME2_TRIAL_12","section":"am","number":1,"category":"基礎医学","choiceCount":5,"points":1},
+  {"id":"me2-trial-am-02","examId":"ME2_TRIAL_12","section":"am","number":2,"category":"基礎工学","choiceCount":5,"points":1},
+  {"id":"me2-trial-am-03","examId":"ME2_TRIAL_12","section":"am","number":3,"category":"基礎ME","choiceCount":5,"points":1},
+  {"id":"me2-trial-am-04","examId":"ME2_TRIAL_12","section":"am","number":4,"category":"原理構造","choiceCount":5,"points":1},
+  {"id":"me2-trial-am-05","examId":"ME2_TRIAL_12","section":"am","number":5,"category":"操作運用","choiceCount":5,"points":1},
+  {"id":"me2-trial-am-06","examId":"ME2_TRIAL_12","section":"am","number":6,"category":"保守安全","choiceCount":5,"points":1},
+  {"id":"me2-trial-pm-01","examId":"ME2_TRIAL_12","section":"pm","number":1,"category":"基礎医学","choiceCount":5,"points":1},
+  {"id":"me2-trial-pm-02","examId":"ME2_TRIAL_12","section":"pm","number":2,"category":"基礎工学","choiceCount":5,"points":1},
+  {"id":"me2-trial-pm-03","examId":"ME2_TRIAL_12","section":"pm","number":3,"category":"基礎ME","choiceCount":5,"points":1},
+  {"id":"me2-trial-pm-04","examId":"ME2_TRIAL_12","section":"pm","number":4,"category":"原理構造","choiceCount":5,"points":1},
+  {"id":"me2-trial-pm-05","examId":"ME2_TRIAL_12","section":"pm","number":5,"category":"操作運用","choiceCount":5,"points":1},
+  {"id":"me2-trial-pm-06","examId":"ME2_TRIAL_12","section":"pm","number":6,"category":"保守安全","choiceCount":5,"points":1}
+]

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "ME2_TRIAL_12",
+  "examName": "第2種ME技術実力検定 12問トライアル",
+  "examType": "ME2",
+  "version": "2.0.0",
+  "formatVersion": "1",
+  "updatedAt": "2026-09-05T13:40:14.781Z",
+  "isPublished": true,
+  "availableFrom": null,
+  "availableUntil": null,
+  "sections": [
+    { "id": "am", "name": "午前", "questionCount": 6 },
+    { "id": "pm", "name": "午後", "questionCount": 6 }
+  ],
+  "categories": ["基礎医学", "基礎工学", "基礎ME", "原理構造", "操作運用", "保守安全"]
+}

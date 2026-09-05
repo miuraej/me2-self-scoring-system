@@ -28,13 +28,9 @@ jobs:
           mkdir -p _site/js _site/data/published
           cp index.html style.css result.css _site/
           cp js/core.js js/shared.js js/student.js _site/js/
-          cp data/exam.json data/questions.json _site/data/
-          if [ -f data/published/ME2_TRIAL_12.json ]; then
-            cp data/published/ME2_TRIAL_12.json _site/data/published/
-          fi
-          if [ -f data/published/ME2_TRIAL_12.school.json ]; then
-            cp data/published/ME2_TRIAL_12.school.json _site/data/published/
-          fi
+          cp data/exams.json _site/data/
+          cp -R data/exams _site/data/
+          find data/published -maxdepth 1 -type f -name '*.json' -exec cp {} _site/data/published/ \;
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
         with:
