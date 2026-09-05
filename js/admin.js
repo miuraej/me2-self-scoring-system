@@ -29,6 +29,7 @@ function syncCorrect(select) {
 }
 
 function syncAllCorrect() { document.querySelectorAll('[data-scoring]').forEach(syncCorrect); }
+function clearCorrectAnswers() { if (!confirm('入力中の正答番号をすべてクリアします。登録するまでは保存されません。')) return; document.querySelectorAll('[data-correct]').forEach(input => { input.value = ''; }); show($('#message'), '正答番号をクリアしました。必要な正答を入力してから登録してください。'); }
 const optionalNumber = id => $(id).value === '' ? null : Number($(id).value);
 
 async function register() {
@@ -79,5 +80,5 @@ async function importCsv(file) {
 }
 
 async function registerExamName() { const examName = $('#examName').value.trim(); if (!examName) throw Error('試験名を入力してください'); const categories = Object.fromEntries(questions.map(q => [q.id, $(`[data-category="${q.id}"]`).value])); const response = await fetch(`/api/exam-name/${encodeURIComponent(exam.examId)}`, { method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ examName, categories }) }); if (!response.ok) throw Error(`試験設定の登録に失敗しました (${response.status})`); exam.examName = examName; questions.forEach(q => { q.category = categories[q.id]; }); }
-async function init() { ({ exam, questions } = await loadBase()); render(); $('#examName').value = exam.examName; await restore(); $('#validate').addEventListener('click', () => registerExamName().then(register).catch(e => show($('#message'), e.message, 'error'))); $('#importCsv').addEventListener('change', e => importCsv(e.target.files[0]).catch(x => show($('#message'), x.message, 'error'))); $('#exportCsv').addEventListener('click', exportCsv); $('#exportAnswers').addEventListener('click', () => { if (!lastRegistered) return show($('#message'), '登録済みの正答がありません。', 'error'); download(`${exam.examId}_published_answers.json`, JSON.stringify(lastRegistered, null, 2)); }); }
+async function init() { ({ exam, questions } = await loadBase()); render(); $('#examName').value = exam.examName; await restore(); $('#validate').insertAdjacentHTML('afterend', '<button id="clearCorrect" class="danger">正答番号をクリア</button>'); $('#validate').addEventListener('click', () => registerExamName().then(register).catch(e => show($('#message'), e.message, 'error'))); $('#clearCorrect').addEventListener('click', clearCorrectAnswers); $('#importCsv').addEventListener('change', e => importCsv(e.target.files[0]).catch(x => show($('#message'), x.message, 'error'))); $('#exportCsv').addEventListener('click', exportCsv); $('#exportAnswers').addEventListener('click', () => { if (!lastRegistered) return show($('#message'), '登録済みの正答がありません。', 'error'); download(`${exam.examId}_published_answers.json`, JSON.stringify(lastRegistered, null, 2)); }); }
 init().catch(e => show($('#message'), e.message, 'error'));
