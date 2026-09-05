@@ -14,7 +14,7 @@ function render() {
   const rows = questions.map((q, index) => `<div class="admin-data${index > 0 && questions[index - 1].section !== q.section ? ' section-break' : ''}">
     <div class="field question-cell"><b>${esc(exam.sections.find(s => s.id === q.section)?.name)} 問${q.number}</b><label><span>分野</span><select aria-label="${q.section}問${q.number}の分野" data-category="${q.id}">${exam.categories.map(category => `<option value="${esc(category)}" ${category === q.category ? 'selected' : ''}>${esc(category)}</option>`).join('')}</select></label></div>
     <label class="field"><span>採点方式</span><select aria-label="問${q.number}の採点方式" data-scoring="${q.id}">${SCORING.map(v => `<option value="${v}">${labels[v]}</option>`).join('')}</select></label>
-    <label class="field"><span>正答番号</span><input aria-label="問${q.number}の正答番号" placeholder="例 1,4" data-correct="${q.id}" value="1"></label>
+    <label class="field"><span>正答番号</span><input aria-label="問${q.number}の正答番号" placeholder="例 1,4" data-correct="${q.id}"></label>
   </div>`).join('');
   $('#adminRows').innerHTML = `<div class="admin-table">${header}${rows}</div>`;
   document.querySelectorAll('[data-scoring]').forEach(select => select.addEventListener('change', () => syncCorrect(select)));
@@ -29,8 +29,7 @@ function syncCorrect(select) {
 }
 
 function syncAllCorrect() { document.querySelectorAll('[data-scoring]').forEach(syncCorrect); }
-function clearCorrectAnswers() { if (!confirm('入力中の正答番号をすべてクリアします。登録するまでは保存されません。')) return; document.querySelectorAll('[data-correct]').forEach(input => { input.value = ''; }); show($('#message'), '正答番号をクリアしました。必要な正答を入力してから登録してください。'); }
-async function resetToRegistered() { if (!confirm('未保存の変更を破棄して、最後に登録した内容へ戻します。')) return; ({ exam, questions } = await loadBase()); render(); $('#examName').value = exam.examName; $('#answerVersion').value = '1.0.0'; $('#schoolTotal').value = ''; $('#nationalTotal').value = ''; await restore(); show($('#message'), '最後に登録した正答・採点方式・平均値へ戻しました。'); }
+async function unpublishAnswers() { if (!confirm('正答の登録を解除します。受験者は採点できなくなります。')) return; const response = await fetch(`/api/answers/${encodeURIComponent(exam.examId)}`, { method: 'DELETE' }); if (!response.ok) throw Error(`正答登録の解除に失敗しました (${response.status})`); lastRegistered = undefined; document.querySelectorAll('[data-correct]').forEach(input => { input.value = ''; }); show($('#message'), '正答を未登録状態に戻しました。受験者が採点すると未登録と表示されます。'); }
 const optionalNumber = id => $(id).value === '' ? null : Number($(id).value);
 
 async function register() {
@@ -65,6 +64,7 @@ async function restore() {
   }
   if (schoolResponse.ok) { const school = await schoolResponse.json(); $('#schoolTotal').value = school.total ?? ''; for (const category of exam.categories) $(`[data-school-category="${category}"]`).value = school.categories?.[category] ?? ''; }
   syncAllCorrect();
+  return answerResponse.ok;
 }
 
 function exportCsv() {
@@ -81,5 +81,5 @@ async function importCsv(file) {
 }
 
 async function registerExamName() { const examName = $('#examName').value.trim(); if (!examName) throw Error('試験名を入力してください'); const categories = Object.fromEntries(questions.map(q => [q.id, $(`[data-category="${q.id}"]`).value])); const response = await fetch(`/api/exam-name/${encodeURIComponent(exam.examId)}`, { method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ examName, categories }) }); if (!response.ok) throw Error(`試験設定の登録に失敗しました (${response.status})`); exam.examName = examName; questions.forEach(q => { q.category = categories[q.id]; }); }
-async function init() { ({ exam, questions } = await loadBase()); render(); $('#examName').value = exam.examName; await restore(); $('#validate').insertAdjacentHTML('afterend', '<button id="clearCorrect" class="danger">正答番号をクリア</button><button id="resetRegistered">登録済み内容に戻す</button>'); $('#validate').addEventListener('click', () => registerExamName().then(register).catch(e => show($('#message'), e.message, 'error'))); $('#clearCorrect').addEventListener('click', clearCorrectAnswers); $('#resetRegistered').addEventListener('click', () => resetToRegistered().catch(e => show($('#message'), e.message, 'error'))); $('#importCsv').addEventListener('change', e => importCsv(e.target.files[0]).catch(x => show($('#message'), x.message, 'error'))); $('#exportCsv').addEventListener('click', exportCsv); $('#exportAnswers').addEventListener('click', () => { if (!lastRegistered) return show($('#message'), '登録済みの正答がありません。', 'error'); download(`${exam.examId}_published_answers.json`, JSON.stringify(lastRegistered, null, 2)); }); }
+async function init() { ({ exam, questions } = await loadBase()); render(); $('#examName').value = exam.examName; await restore(); $('#validate').insertAdjacentHTML('afterend', '<button id="unpublishAnswers" class="danger">正答を未登録に戻す</button>'); $('#validate').addEventListener('click', () => registerExamName().then(register).catch(e => show($('#message'), e.message, 'error'))); $('#unpublishAnswers').addEventListener('click', () => unpublishAnswers().catch(e => show($('#message'), e.message, 'error'))); $('#importCsv').addEventListener('change', e => importCsv(e.target.files[0]).catch(x => show($('#message'), x.message, 'error'))); $('#exportCsv').addEventListener('click', exportCsv); $('#exportAnswers').addEventListener('click', () => { if (!lastRegistered) return show($('#message'), '登録済みの正答がありません。', 'error'); download(`${exam.examId}_published_answers.json`, JSON.stringify(lastRegistered, null, 2)); }); }
 init().catch(e => show($('#message'), e.message, 'error'));

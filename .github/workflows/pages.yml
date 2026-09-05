@@ -29,7 +29,9 @@ jobs:
           cp index.html style.css result.css _site/
           cp js/core.js js/shared.js js/student.js _site/js/
           cp data/exam.json data/questions.json _site/data/
-          cp data/published/ME2_TRIAL_12.json _site/data/published/
+          if [ -f data/published/ME2_TRIAL_12.json ]; then
+            cp data/published/ME2_TRIAL_12.json _site/data/published/
+          fi
           if [ -f data/published/ME2_TRIAL_12.school.json ]; then
             cp data/published/ME2_TRIAL_12.school.json _site/data/published/
           fi
