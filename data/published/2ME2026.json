@@ -1,0 +1,973 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "2ME2026",
+  "version": "1.0.0",
+  "updatedAt": "2026-09-05T15:04:45.477Z",
+  "answerStatus": "published",
+  "answers": [
+    {
+      "questionId": "2me2026-am-001",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-002",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-003",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-004",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-005",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-006",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-007",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-008",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-009",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-010",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-011",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-012",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-013",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-014",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-015",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-016",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-017",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-018",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-019",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-020",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-021",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-022",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-023",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-024",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-025",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-026",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-027",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-028",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-029",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-030",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-031",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-032",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-033",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-034",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-035",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-036",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-037",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-038",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-039",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-040",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-041",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-042",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-043",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-044",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-045",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-046",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-047",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-048",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-049",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-050",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-051",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-052",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-053",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-054",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-055",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-056",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-057",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-058",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-059",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-am-060",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-001",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-002",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-003",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-004",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-005",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-006",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-007",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-008",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-009",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-010",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-011",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-012",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-013",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-014",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-015",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-016",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-017",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-018",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-019",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-020",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-021",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-022",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-023",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-024",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-025",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-026",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-027",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-028",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-029",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-030",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-031",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-032",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-033",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-034",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-035",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-036",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-037",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-038",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-039",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-040",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-041",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-042",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-043",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-044",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-045",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-046",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-047",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-048",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-049",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-050",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-051",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-052",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-053",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-054",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-055",
+      "scoring": "normal",
+      "correctAnswers": [
+        5
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-056",
+      "scoring": "normal",
+      "correctAnswers": [
+        4
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-057",
+      "scoring": "normal",
+      "correctAnswers": [
+        3
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-058",
+      "scoring": "normal",
+      "correctAnswers": [
+        2
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-059",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    },
+    {
+      "questionId": "2me2026-pm-060",
+      "scoring": "normal",
+      "correctAnswers": [
+        1
+      ],
+      "points": 1
+    }
+  ],
+  "nationalAverage": {
+    "total": null,
+    "categories": {}
+  }
+}
