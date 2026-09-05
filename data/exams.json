@@ -14,5 +14,13 @@
     "isPublished": true,
     "availableFrom": null,
     "availableUntil": null
+  },
+  {
+    "examId": "2ME2027",
+    "examName": "第2種ME試験48回2027年",
+    "examType": "ME2",
+    "isPublished": true,
+    "availableFrom": null,
+    "availableUntil": null
   }
 ]

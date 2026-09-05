@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "2ME2027",
+  "examName": "第2種ME試験48回2027年",
+  "examType": "ME2",
+  "version": "1.0.0",
+  "formatVersion": "1",
+  "updatedAt": "2026-09-05T16:04:02.442Z",
+  "isPublished": true,
+  "availableFrom": null,
+  "availableUntil": null,
+  "sections": [
+    {
+      "id": "am",
+      "name": "午前",
+      "questionCount": 60
+    },
+    {
+      "id": "pm",
+      "name": "午後",
+      "questionCount": 60
+    }
+  ],
+  "categories": [
+    "基礎医学",
+    "基礎工学",
+    "基礎ME",
+    "原理構造",
+    "操作運用",
+    "保守安全"
+  ]
+}

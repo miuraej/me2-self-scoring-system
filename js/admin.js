@@ -37,6 +37,14 @@ async function unpublishAnswers() { if (!confirm('正答の登録を解除しま
 const optionalNumber = id => $(id).value === '' ? null : Number($(id).value);
 
 async function register() {
+  const hasAnswerSettings = questions.some(q => {
+    const scoring = $(`[data-scoring="${q.id}"]`).value;
+    return ['all_correct', 'excluded'].includes(scoring) || $(`[data-correct="${q.id}"]`).value.trim() !== '';
+  });
+  if (!hasAnswerSettings) {
+    show($('#message'), lastRegistered ? '試験設定を保存しました。登録済み正答は変更していません。' : '試験を登録しました。正答は未登録です。受験者は回答を入力できます。');
+    return;
+  }
   const nationalCategories = {}, schoolCategories = {};
   const answers = questions.map(q => {
     const scoring = $(`[data-scoring="${q.id}"]`).value;
